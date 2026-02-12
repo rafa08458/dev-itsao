@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Estudio - Rafael Vielma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --accent: #38bdf8;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        header {
+            border-bottom: 3px solid var(--primary);
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+        }
+
+        h1 { color: var(--dark); margin: 0; }
+        h2 { color: var(--primary); margin-top: 30px; border-left: 5px solid var(--accent); padding-left: 15px; }
+
+        .info-box {
+            background: #f1f5f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        th { background-color: #dbeafe; color: var(--primary); }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1><i class="fas fa-book-open"></i> Detalles de la Asignatura</h1>
+        <p><strong>Carrera:</strong> Ingeniería Informática - ITSAO</p>
+    </header>
+
+    <div class="info-box">
+        <strong>Asignatura:</strong> Desarrollo Full Stack (Clave: DSH-2502) [cite: 6, 7]<br>
+        <strong>Competencia Principal:</strong> Diseñar e implementar interfaces web accesibles, responsivas y usables utilizando tecnologías actuales.
+    </div>
+
+    <h2><i class="fas fa-list-ul"></i> Temario Principal</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Unidad</th>
+                <th>Temas Clave</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1. Fundamentos</td>
+                <td>Arquitectura cliente-servidor, Git, GitHub y Node.js.</td>
+            </tr>
+            <tr>
+                <td>2. Interfaces Modernas</td>
+                <td>HTML5 semántico, CSS3, Bootstrap y Accesibilidad (WCAG).</td>
+            </tr>
+            <tr>
+                <td>3. Back-End</td>
+                <td>Patrones de diseño (Singleton, Factory, Observer).</td>
+            </tr>
+            <tr>
+                <td>4. Frameworks</td>
+                <td>Desarrollo con Angular, Firebase y servicios RESTful.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2><i class="fas fa-tasks"></i> Prácticas Destacadas</h2>
+    <ul>
+        <li>Configuración de entornos con Node.js y Visual Studio Code[cite: 67].</li>
+        <li>Creación de menús adaptables con Tailwind o Bootstrap[cite: 69].</li>
+        <li>Implementación de patrones de diseño como Factory Method para gestión de usuarios[cite: 71].</li>
+        <li>Consumo de APIs públicas mediante HttpClient en Angular[cite: 75].</li>
+    </ul>
+
+    <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Volver al CV Principal</a>
+</div>
+
+</body>
+</html>
